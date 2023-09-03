@@ -1,0 +1,338 @@
+@media (max-width: 1019px) {
+  .pop-box {
+    min-width: 700px;
+    min-height: 400px;
+    background-color: var(--white-color);
+    position: absolute;
+    transform: translate(50%, -50%);
+    border-radius: 30px;
+    top: 60%;
+    left: -40%;
+  }
+
+  .check {
+    font-size: 80px;
+    margin-top: 50px;
+    color: rgb(10, 87, 10);
+  }
+
+  .messagr p {
+    line-height: 40px;
+    font-size: 20px !important;
+    font-weight: 600;
+    margin-top: 30px;
+    font-family: var(--secondary-font);
+  }
+
+  .howWeAre {
+    margin-top: 450px;
+  }
+
+  .our-team-section {
+    min-height: 30vh;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .navbar-collapse {
+    padding: 2rem;
+  }
+
+  .header .navbar .nav-item .nav-link {
+    padding: 1rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .parallex:not(.parallex-main) {
+    background-size: cover;
+  }
+
+  .parallex-1,
+  .parallex-2 {
+    background-size: cover;
+  }
+
+  .black-card {
+    left: -35%;
+    width: 100%;
+  }
+
+  .black-cards {
+    right: -35%;
+    width: 100%;
+  }
+
+  .our-team-section {
+    min-height: 30vh;
+  }
+
+  .our-capbilities {
+    min-height: 30vh;
+  }
+
+  .img img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding-right: 70px;
+  }
+
+  .howWeAre {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767.5px) {
+  body,
+  html {
+    font-size: 8px;
+  }
+  .banner-wrapper {
+    min-height: 550px;
+  }
+
+  h2,
+  p {
+    padding: 10px;
+  }
+
+  .main-btn {
+    margin-left: 10px;
+  }
+
+  .parallex:not(.parallex-main) {
+    background-size: cover;
+  }
+
+  .parallex-1,
+  .parallex-2 {
+    background-size: cover;
+  }
+
+  .black-card {
+    left: 5%;
+    width: 90%;
+  }
+
+  .black-cards {
+    right: 5%;
+    width: 90%;
+  }
+
+  .wrapper .banner-wrapper {
+    background-size: contain;
+  }
+
+  .parallex.img1,
+  .parallex.img2,
+  .parallex.img3,
+  .parallex.img4,
+  .parallex.img5 {
+    height: 50vh;
+  }
+
+  .parallex.img1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .process-wrappers {
+    position: relative;
+    margin-top: 1350px;
+    padding-right: 50px;
+  }
+  .close i {
+    font-size: 25px;
+    color: var(--white-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 3, 3);
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border-radius: 50%;
+  }
+
+  .howWeAre {
+    margin-top: 450px;
+  }
+
+  .our-team-section {
+    min-height: 30vh;
+  }
+
+  .our-capbilities {
+    min-height: 30vh;
+  }
+}
+
+@media (max-width: 590px) {
+  body,
+  html {
+    font-size: 7px;
+  }
+  .whatsApp-icon img {
+    width: 70px;
+  }
+  .whatsApp-icon img {
+    width: 70px;
+  }
+
+  .howWeAre {
+    margin-top: 450px;
+  }
+
+  .our-capbilities {
+    min-height: 30vh;
+  }
+}
+
+@media (max-width: 390.4px) {
+  h1 {
+    font-size: 27px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .process-wrappers {
+    position: relative;
+    margin-top: 1350px;
+    padding-right: 70px;
+  }
+  .whatsApp-icon img {
+    width: 70px;
+  }
+
+  .data-social i {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+  }
+
+  .pop-box {
+    min-width: 350px;
+    min-height: 140px;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 15px;
+  }
+
+  .check {
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(10, 87, 10);
+  }
+
+  .messagr p {
+    line-height: 30px;
+    font-size: 14px !important;
+    font-weight: 400;
+    margin-top: 5px;
+    font-family: var(--secondary-font);
+  }
+
+  .close i {
+    font-size: 20px;
+    color: var(--white-color);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 3, 3);
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    border-radius: 50%;
+  }
+  .howWeAre {
+    margin-top: 450px;
+  }
+
+  .our-capbilities {
+    min-height: 20vh !important;
+  }
+  .main-wrapper {
+    margin-top: 0px;
+  }
+
+  .form {
+    min-height: 0vh;
+    margin: 0;
+  }
+
+  .img img {
+    padding-right: 0px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .about-us-data h1::after {
+    width: 50%;
+    height: 30px;
+  }
+
+  .our-capbilities h1::after {
+    width: 68%;
+    height: 30px;
+  }
+
+  .our-team-section h1::after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 30px;
+  }
+
+  .process-wrappers {
+    margin-top: 0px;
+  }
+
+  .sec-title h1::after {
+    position: absolute;
+    content: "";
+    background-color: var(--primary-color);
+    width: 80%;
+    height: 30px;
+    left: 1px;
+  }
+}
+
+/* h2 {
+    color: var(--white-color);
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    padding: 9px;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    color: var(--white-color);
+    padding: 9px;
+}
+
+
+.main-btn{
+    margin: 0 20px;
+} */
